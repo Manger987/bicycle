@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include templates/head.ejs %>
+    </head>
+    <body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <div class="container">
+        <% include templates/header.ejs %>
+        <br/> 
+        <%- body %>
+        <% include templates/footer.ejs %>
+        </div>
+    </div>
+    </body>
+</html>
